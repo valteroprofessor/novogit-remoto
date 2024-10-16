@@ -1,0 +1,51 @@
+basicos git
+Instalar Git
+	https://git-scm.com/downloads
+
+***********************************************
+testar
+***********************************************
+abrir terminal digitar
+	git --help -h
+	gur --v version ou -v
+
+***********************************************
+griar conta github no site 
+***********************************************	
+
+1 criar repositorio local git
+	criar nova pasta  novogit
+	entrar na pasta
+
+2 inicializar repositorio
+	digitar git init  cria .git oculto 
+
+3 Criar arquivos
+	novo arquivo texto   novogit1
+	git status *verificar o status
+	
+4 adicionar no stage area
+	git add "nome do arquivo"
+	git add .         adiciona varios arquivos no controle de versão
+
+5 primeira vez configurar repositorio global git
+	git config --global user.email "valteroprofessor@gmail.com"
+	git config --global usr.name "Valter"
+
+6 criar a primeira versão
+	git commit -m "commit inicial"
+
+7 enviar para github repositorio remoto
+	entrar na pagiana github
+	criar novo repositorio remoto novogit_remoto
+	copiar endereço do repositorio criado
+
+	comando
+	git remote origin "link"
+
+8 enviar para local para remoto
+	git push --set-upstream origin master
+
+	
+	
+
