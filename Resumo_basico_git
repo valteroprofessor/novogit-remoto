@@ -41,10 +41,12 @@ griar conta github no site
 	copiar endereço do repositorio criado
 
 	comando
-	git remote origin "link"
+	git remote add origin "link"
 
-8 enviar para local para remoto
+8 enviar de local para remoto
 	git push --set-upstream origin master
+	 ou 
+	git push -u origin master
 
 	
 	
