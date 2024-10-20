@@ -24,6 +24,13 @@ griar conta github no site
 	novo arquivo texto   novogit1
 	git status *verificar o status
 	
+	3.1 Renomear branch convenção
+		git branch -M "main" renomear branch master para main
+	3.2 Criar nova branch
+		git branch (nova branch)	
+	3.3 Mudar branch ativa
+		git branch (branch/nova ou ativa atual)
+
 4 adicionar no stage area
 	git add "nome do arquivo"
 	git add .         adiciona varios arquivos no controle de versão
